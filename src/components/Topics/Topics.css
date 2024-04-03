@@ -46,3 +46,24 @@
     bottom: -24px;
     right: -24px;
 }
+
+/* tablet version */
+
+@media(max-width:1040px){
+    #topics .topic-image .crntImg{
+        width: 385px;
+    }
+}
+
+/* mobile version */
+
+@media(max-width:720px){
+    #topics .topic-image .crntImg{
+        display: none;
+    }
+
+    #topics .topic-image .yellow-frame{
+        bottom: -160px;
+        right: 0;
+    }
+}

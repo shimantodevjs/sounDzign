@@ -26,3 +26,29 @@
     top: -35px;
     left: 0;
 }
+
+/* mobile version */
+
+@media (max-width:720px){
+     #info .content-container{
+        flex-direction: column;
+        gap: 80px;
+     }
+     
+    #info .info-content img{
+        width: 100px;
+        height: 100px;
+    }
+
+    #info .info-content .amount{
+        font-size: 32px;
+    }
+
+    #info .info-content .type{
+            font-size: 24px;
+    }
+
+    #info .red-frame{
+        left: 32px;
+    }
+}
