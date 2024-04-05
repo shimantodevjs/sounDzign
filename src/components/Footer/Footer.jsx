@@ -58,6 +58,9 @@ const Footer = () => {
                     </li>
                    </ul>
                </div>
+               <div className="copyright-mobile">
+                   This website is designed by GTCoding Ⓒ 2024
+               </div>
             </div>
           </div>
     </footer>

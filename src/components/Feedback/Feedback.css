@@ -1,10 +1,10 @@
-#feedback .content-container{
+#feedbacks .content-container{
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
 }
 #feedbacks .feedback{
-    width: 100%;
+    width: 264px;
 }
 
 #feedbacks .feedback img{
@@ -13,6 +13,7 @@
     border-radius: 10px;
     margin-bottom: 16px;
 }
+
 
 #feedbacks .feedback .reviewer-details .name{
     font-family: Alegreya;
@@ -25,5 +26,42 @@
     font-family: Alegreya;
     font-size: 16px;
     font-weight: 400;
-    width: 264px;
+}
+
+/* tablet version */
+
+@media (max-width:1040px){
+    #feedbacks .content-container{
+        flex-direction: column;
+        gap: 50px;
+        margin-left: 20px;
+        margin-top: 60px;
+        justify-content: center;
+        
+    }
+
+    #feedbacks .feedback{
+        display: flex;
+        gap: 28px;
+        width: 100%;
+    }
+
+        #feedbacks .feedback .reviewer-details{
+            margin-top: 8px;
+        }
+}
+
+/* mobile version */
+
+@media (max-width:720px){
+    #feedbacks .feedback{
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+        align-items: center;
+    }
+
+#feedbacks .feedback img{
+    margin-bottom: 0px;
+}
 }
